@@ -1,0 +1,2348 @@
+@media only screen and (min-width:2560px) and (max-width:718px) {
+    .background-bgr {
+        position: absolute;
+        right: 0;
+        bottom: -328px;
+        z-index: -99999
+    }
+}
+
+@media only screen and (max-width:1800px) {
+    header .navbar {
+        margin: 0;
+        padding: 0
+    }
+
+    .background-bgr {
+        position: absolute;
+        right: -42px;
+        bottom: -338px;
+        z-index: -99999
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .main-code-content .box-bg {
+        justify-content: center !important;
+        align-items: center;
+        display: flex;
+        margin-top: 60px
+    }
+
+    .main-code-content .box-bg1 {
+        justify-content: center !important;
+        align-items: center;
+        display: flex;
+        margin-top: 60px
+    }
+
+    .honey-export .process-title {
+        width: 38%
+    }
+
+    .testimonial-video:after {
+        width: 90%;
+        height: 45% !important;
+        top: 50%;
+        right: 17px !important
+    }
+
+    .testimonial-video:before {
+        width: 90%;
+        height: 54% !important;
+        top: 50%;
+        right: 30px !important
+    }
+}
+
+@media screen and (min-width:1650px) and (max-width:1820px) {
+    p {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .header-cont h2 {
+        font-size: 65px
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+}
+
+@media screen and (min-width:1550px) and (max-width:1650px) {
+    p {
+        font-size: 20px;
+        line-height: 60px
+    }
+
+    .header-cont h2 {
+        font-size: 65px
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+
+    .honey-export .pattern-1 {
+        position: absolute;
+        right: 22% !important;
+        top: -57%
+    }
+}
+
+@media screen and (min-width:1450px) and (max-width:1550px) {
+    p {
+        font-size: 18px;
+        line-height: 60px
+    }
+
+    .header-cont h5 {
+        font-size: 18px
+    }
+
+    .header-cont h2 {
+        font-size: 58px;
+        line-height: 78px
+    }
+
+    .navbar-nav li a {
+        padding: 10px 20px !important
+    }
+
+    .navbar-brand {
+        margin-right: 2%
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+
+    .honey-export .pattern-1 {
+        position: absolute;
+        right: 20%;
+        top: -57%
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1450px) {
+    p {
+        font-size: 17px;
+        line-height: 60px
+    }
+
+    .header-cont h5 {
+        font-size: 17px
+    }
+
+    .header-cont h2 {
+        font-size: 55px;
+        line-height: 75px
+    }
+
+    .navbar-nav li a {
+        padding: 0 20px !important;
+        font-size: 19px
+    }
+
+    .navbar-brand {
+        margin-right: 2%
+    }
+
+    .header-cont h3 {
+        font-size: 26px
+    }
+
+        .header-cont h3:before {
+            height: 45px;
+            width: 8px;
+            top: 12px
+        }
+
+    .newgrid .main-ad {
+        position: absolute;
+        bottom: 40px;
+        right: 0
+    }
+
+    .newgrid {
+        position: relative
+    }
+
+    img.img-fluid.core-img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -40px
+    }
+
+    .backgrounds-bgg {
+        position: initial
+    }
+
+    .grid2 {
+        position: absolute;
+        display: block;
+        width: fit-content;
+        right: -55px;
+        top: -54px
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+
+    .honey-export .pattern-1 {
+        position: absolute;
+        right: 17%;
+        top: -59%
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .ang-img {
+        display: none
+    }
+
+    .ang-img2 {
+        display: block
+    }
+
+    .applyingpopup .attach .input-group .input-apply2 {
+        width: 70%
+    }
+
+    .attach .input-group-btn {
+        width: 50%
+    }
+
+    .testimonial-video:after {
+        width: 70%;
+        height: 50%;
+        top: 50%;
+        right: 18px
+    }
+
+    .testimonial-video:before {
+        width: 70%;
+        height: 60%;
+        top: 50%;
+        right: 33px
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1350px) {
+    p {
+        font-size: 17px;
+        line-height: 60px
+    }
+
+    .header-cont h5 {
+        font-size: 17px
+    }
+
+    .header-cont h2 {
+        font-size: 55px;
+        line-height: 75px
+    }
+
+    .navbar-nav li a {
+        padding: 0 17px !important;
+        font-size: 18px
+    }
+
+    .navbar-brand {
+        margin-right: 2%
+    }
+
+    .header-cont h3 {
+        font-size: 26px
+    }
+
+        .header-cont h3:before {
+            height: 45px;
+            width: 8px;
+            top: 12px
+        }
+
+    .header-cont {
+        width: 100%;
+        position: relative;
+        top: 18%;
+        right: 0;
+        left: 0
+    }
+
+    .card-box {
+        padding: 30px 20px
+    }
+
+    .craft-dot11 {
+        left: 70%;
+        top: 95%
+    }
+
+    .craft-dot10 {
+        top: 60%;
+        left: 30%
+    }
+
+    .mobile-cont h2 {
+        font-size: 50px;
+        line-height: 65px
+    }
+
+    .contactspace {
+        padding-top: 50px
+    }
+
+    .backgrounds-bgg {
+        position: initial
+    }
+
+    .angularjs-box {
+        width: 100%
+    }
+
+    .honey-export .pattern-1 {
+        position: absolute;
+        right: 17%;
+        top: -59%
+    }
+
+    .honey-export .process-title {
+        width: 38%
+    }
+
+    .attach .input-group .form-control {
+        width: 80%
+    }
+
+    .applyingpopup .attach .input-group .form-control {
+        width: 80%
+    }
+
+    .testimonial-video:after {
+        width: 90%;
+        height: 65%;
+        top: 50%;
+        right: 22px
+    }
+
+    .testimonial-video:before {
+        width: 90%;
+        height: 75%;
+        top: 50%;
+        right: 37px
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 27%
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .hero-work,
+    .industries,
+    .hero-trial,
+    .hero-process,
+    .hero-touch-back {
+        padding: 50px 0;
+    }
+
+    .fulldiv {
+        right: 15%;
+    }
+
+    footer {
+        padding: 70px 0 30px 0;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 40px
+    }
+
+    .header-cont h5 {
+        font-size: 15px;
+        line-height: 35px
+    }
+
+    .header-cont h2 {
+        font-size: 45px;
+        line-height: 65px
+    }
+
+    .navbar-nav li a {
+        padding: 0 10px !important;
+        font-size: 15px
+    }
+
+    .navbar-brand {
+        margin-right: auto
+    }
+
+    .header-cont h3 {
+        font-size: 24px
+    }
+
+        .header-cont h3:before {
+            height: 45px;
+            width: 8px;
+            top: 12px
+        }
+
+    .header-cont {
+        width: 100%;
+        position: relative;
+        top: 11%;
+        right: 0;
+        left: 0
+    }
+
+    .card-box {
+        padding: 30px 20px
+    }
+
+    .right-nav li .contact-btn {
+        padding: 8px 21px;
+        margin-right: 10px;
+        font-size: 16px
+    }
+
+    .right-nav li button {
+        width: 50px;
+        height: 50px
+    }
+
+    .header-btn {
+        padding: 16px 40px
+    }
+
+    .elegent-dot {
+        right: -30px
+    }
+
+    .process-title h2 {
+        font-size: 30px;
+        line-height: 45px
+    }
+
+
+
+    .card-box {
+        padding: 30px 10px
+    }
+
+    .card-cont h5 {
+        font-size: 17px;
+        line-height: 45px
+    }
+
+    .card-cont p {
+        font-size: 13px
+    }
+
+    .elegent-img {
+        left: 0;
+        bottom: -60px
+    }
+
+    .Portfolio-cont h5 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .trial-cont h2 {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 15px
+    }
+
+    .trial-cont p {
+        font-size: 17px
+    }
+
+    .trial-cont h5 {
+        font-size: 20px;
+        line-height: 32px
+    }
+
+
+
+    .touch-cont h5 {
+        font-size: 24px
+    }
+
+    .touch-cont p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .touch-box {
+        padding: 40px;
+        left: 0;
+        top: -60px
+    }
+
+    .hero-achivment {
+        padding-bottom: 120px
+    }
+
+    .achivment-cont h5 {
+        font-size: 17px
+    }
+
+    .owl-prev {
+        left: 70%
+    }
+
+    .footer-link ul li {
+        font-size: 14px
+    }
+
+    .core-dot .elegent-dot {
+        left: 0;
+        bottom: -40px
+    }
+
+    .grid1 {
+        display: none
+    }
+
+    .grid2 {
+        display: none
+    }
+
+    .craft-dot.craft-dot3 {
+        left: 95%
+    }
+
+    .craft-dot6 {
+        top: 90%;
+        left: 90%
+    }
+
+
+    .craft-cont h2 {
+        font-size: 48px;
+        line-height: 65px
+    }
+
+    .navbar-brand {
+        margin-right: 0
+    }
+
+    .homepage {
+        bottom: -350px !important
+    }
+
+    .mob-title .process-title {
+        width: 70%
+    }
+
+    .mobile-cont h2 {
+        font-size: 42px;
+        line-height: 60px
+    }
+
+    .app-title .process-title {
+        width: 40%
+    }
+
+    .web-cont h1 {
+        font-size: 50px;
+        line-height: 65px
+    }
+
+    .mobport-cont ul li a {
+        padding: 0 14px;
+        margin: 0 3px
+    }
+
+    .mobport-cont h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px
+    }
+
+    .award-content h3 {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .award-content h2 {
+        font-size: 40px;
+        line-height: 53px
+    }
+
+    .award-content p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .mission-content h3 {
+        font-size: 16px
+    }
+
+    .mission-content h2 {
+        font-size: 40px;
+        line-height: 53px
+    }
+
+    .mission-content p {
+        font-size: 16px;
+        margin-bottom: 15px
+    }
+
+    .main-ad {
+        bottom: -130px;
+        right: 20px
+    }
+
+    .career-title h5 {
+        font-size: 18px;
+        line-height: 30px;
+        min-height: 60px
+    }
+
+    .newgrid .main-ad {
+        position: absolute;
+        bottom: 13px;
+        right: 0;
+        z-index: -1
+    }
+
+    .newgrid {
+        position: relative
+    }
+
+    img.img-fluid.core-img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -57px
+    }
+
+    .hero-navigate {
+        padding-bottom: 40px
+    }
+
+    .contact-img {
+        padding-top: 50px
+    }
+
+    .backgrounds-bgg {
+        position: initial
+    }
+
+    .main-code-content .box-bg .content h2 {
+        font-size: 20px;
+        font-family: Muli-ExtraBold;
+        text-align: right
+    }
+
+    .bg-image {
+        margin-left: 10px
+    }
+
+    .main-code-content .box-bg {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-top: 20px
+    }
+
+    .main-code-content .box-bg1 {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-top: 20px
+    }
+
+        .main-code-content .box-bg1 .content h2 {
+            font-size: 20px;
+            font-family: Muli-ExtraBold;
+            text-align: left
+        }
+
+    .bg-image1 {
+        margin-right: 10px;
+        margin-left: -25px
+    }
+
+    .hero-enable {
+        margin: 0
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+
+    .hero-process .techfonts h2 {
+        font-size: 40px;
+        line-height: 40px;
+        font-family: Muli-Black
+    }
+
+    .hero-process .techfonts h3 {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: .26px;
+        font-family: Muli-ExtraBold
+    }
+
+    section.hero-process.hero-enables {
+        margin-top: 0
+    }
+
+    .hero-process .newbold {
+        font-size: 35px !important;
+        letter-spacing: .42px !important
+    }
+
+    .hero-process .newsoft {
+        font-size: 20px !important;
+        letter-spacing: .22px !important
+    }
+
+    .bg-image2 {
+        margin-right: 10px;
+        margin-left: -8px
+    }
+
+    .hero-process .techfonts p {
+        font-size: 14px;
+        font-family: Muli-SemiBold;
+        letter-spacing: .54px
+    }
+
+    .angularjs-box {
+        width: 100%
+    }
+
+    .background-bgr {
+        display: none
+    }
+
+    .honey-export.section-1 .honey-cont {
+        margin-top: 40px
+    }
+
+    .honey-export .pattern-1 {
+        position: absolute;
+        right: 12%;
+        top: -59%
+    }
+
+    .honey-export .process-title {
+        width: 39%
+    }
+
+    .only-honey-pattern {
+        top: -39% !important
+    }
+
+    .attach .input-group .form-control {
+        width: 70%
+    }
+
+    .applyingpopup .attach .input-group .form-control, #hiringpopup .attach .input-group .dream-input {
+        width: 70%
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 23%;
+        bottom: -90px
+    }
+
+    .work-info {
+        margin: 32px 50px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .path {
+        display: none;
+    }
+
+    .hero-header {
+        height: 70vh;
+    }
+
+    .card-box {
+        margin: 0 0 30px 0;
+    }
+
+    .fulldiv {
+        right: 35%;
+    }
+
+    .padding {
+        padding: 700px 0 0 0;
+    }
+
+    .divcover-box2 {
+        margin-top: 0px;
+    }
+
+    .divcover-box {
+        margin-bottom: 30px;
+    }
+
+    .discover-icon {
+        margin-bottom: 10px;
+    }
+
+    .hero-work {
+        padding: 70px 0;
+    }
+
+    .process-main-title {
+        margin-bottom: 50px;
+    }
+
+    .work-info {
+        margin: 32px 20px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
+
+    .industries {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .hero-header {
+        height: 50vh;
+    }
+
+    .hero-h2 h2 {
+        font-size: 40px !important;
+    }
+
+    .bg-1 {
+        margin-top: 0px;
+    }
+
+    .padding {
+        padding: 750px 0 0 0;
+    }
+
+    .divcover-box2 {
+        margin-top: 0;
+    }
+
+    .discover-icon {
+        margin-bottom: 10px;
+    }
+
+    .hero-work {
+        padding: 50px 0;
+    }
+
+    .hero-work-contetn .process-title-work h2 {
+        font-size: 30px;
+    }
+
+    .process-main-title {
+        margin-bottom: 30px;
+    }
+
+    .work-info {
+        margin: 32px 0;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
+
+    .hero-process {
+        padding: 50px 0;
+    }
+
+    .touch-button {
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .bg-1 {
+        margin-top: 0px;
+    }
+
+    .hero-header {
+        height: 50vh;
+    }
+
+    .hero-process {
+        padding: 20px 0;
+    }
+
+    .hero-h2 h2 {
+        font-size: 36px !important;
+        margin: 20px 0 0px 0 !important;
+    }
+
+    .process-main-title {
+        margin-bottom: 50px;
+    }
+
+    .fulldiv {
+        right: 35%;
+    }
+
+    .discover-icon {
+        margin-bottom: 10px;
+    }
+
+    .padding {
+        padding: 1400px 0 0 0;
+    }
+
+    .hero-work {
+        padding: 60px 0;
+    }
+
+    .divcover-box2 {
+        margin-top: 20px;
+    }
+
+    .hero-work-contetn .process-title-work h2 {
+        font-size: 26px;
+    }
+
+    .process-main-title {
+        margin-bottom: 30px;
+    }
+
+    .work-info {
+        margin: 32px 0px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 20px;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .industries {
+        padding: 0px 0;
+    }
+
+    .industries-head h3 {
+        font-size: 26px;
+    }
+
+    .touch-button {
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+
+    .touch-box-head h5 {
+        font-size: 22px;
+    }
+
+    .hero-touch-back {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header-cont h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .hero-header {
+        height: 40vh;
+    }
+
+    .fulldiv {
+        right: 25%;
+    }
+
+    .hero-h2 h2 {
+        font-size: 26px !important;
+    }
+
+    .padding {
+        padding: 1650px 0 0 0;
+    }
+
+    .process-title h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .dicover-cont h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .hero-work-contetn .process-title-work h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .touch-box-head h5 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .owl-stage-outer .slider-info {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .applyingpopup .attach .input-group-btn {
+        width: 100%;
+    }
+
+    header .navbar {
+        margin: auto;
+        padding: 15px 0
+    }
+
+    .dot7 {
+        right: 0;
+        bottom: 0
+    }
+
+    .header-cont {
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0
+    }
+
+    .path {
+        display: none
+    }
+
+    .elegent-dot {
+        right: 0;
+        bottom: -70px;
+        z-index: -2
+    }
+
+    .header-cont h2 {
+        font-size: 42px;
+        line-height: 55px
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .header-cont h3 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .hero-header {
+    }
+
+    .desktop {
+        display: none
+    }
+
+    .mobile {
+        display: block
+    }
+
+    .navbar-nav li a {
+        padding: 0 !important;
+        margin: 10px 0
+    }
+
+    .Portfolio-box2 {
+        margin: 30px 0
+    }
+
+    .award-img {
+        margin-top: 20px
+    }
+
+    .homepage {
+        bottom: -280px !important
+    }
+
+    .divcover-box {
+        margin-bottom: 30px
+    }
+
+        .divcover-box:last-child {
+            margin-bottom: 0
+        }
+
+    .hero-trial {
+        padding: 40px 0
+    }
+
+    .hero-process {
+    }
+
+    .card-box2 {
+        margin-top: 0
+    }
+
+    .card-box.card-box2:hover {
+        margin-top: -30px
+    }
+
+    .card-box2 {
+        margin-top: 0
+    }
+
+    .card-box {
+        margin-bottom: 40px
+    }
+
+    .core-img {
+        position: absolute;
+        top: -160px;
+        right: 3px
+    }
+
+    .hero-achivment {
+        padding-bottom: 50px
+    }
+
+    .header-cont h3:before {
+        height: 40px;
+        width: 7px;
+        top: 0;
+        left: 0
+    }
+
+    .header-cont h5 {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .header-cont p {
+        margin-bottom: 20px
+    }
+
+    .process-main-title {
+        display: block
+    }
+
+    .achivment-title .process-title {
+        text-align: LEFT;
+        padding-right: 0;
+        width: 100%
+    }
+
+    .Portfolio-logo {
+        padding: 30px
+    }
+
+    .Portfolio-cont {
+        padding: 30px
+    }
+
+    .owl-prev {
+        left: 70%
+    }
+
+    .touch-box {
+        position: relative;
+        top: 0;
+        display: block;
+        padding: 20px
+    }
+
+    .process-title {
+        display: block;
+        width: 100%;
+        border: 0;
+        text-align: left
+    }
+
+    .process-main-title2 .process-title {
+        width: 100%
+    }
+
+    .process-title h2 {
+        font-size: 28px;
+        line-height: 55px;
+        text-align: center;
+        margin-right: 0
+    }
+
+    .aproch-title h2 {
+        text-align: center;
+        margin-right: 0
+    }
+
+    .sub-title h5 {
+        margin-bottom: 0;
+        margin: 0;
+        text-align: center
+    }
+
+    .touch-cont {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    .touch-btn {
+        width: 100%
+    }
+
+        .touch-btn .header-btn {
+            margin-left: 0
+        }
+
+    .touch-cont h5 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .touch-cont p {
+        font-size: 14px;
+        line-height: 26px
+    }
+
+    .play-btn {
+        right: 30px;
+        bottom: 40px
+    }
+
+    .trial-cont h3 {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .trial-cont h2 {
+        font-size: 32px;
+        line-height: 45px
+    }
+
+    .trial-cont p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .custmer-img {
+        margin-top: 40px;
+        text-align: center
+    }
+
+    .Portfolio-cont h5 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .dicover-cont h5 {
+        font-size: 24px;
+        line-height: 50px
+    }
+
+    .footer-box {
+        display: block
+    }
+
+    footer {
+        padding: 50px 0
+    }
+
+    .footer1 {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px
+    }
+
+    .footer2 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        float: none
+    }
+
+    .footer3 {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px
+    }
+
+    .footer4 {
+        display: block;
+        width: 100%;
+        float: none
+    }
+
+    .footer5 {
+        display: block;
+        width: 100%
+    }
+
+    .right-cont p {
+        margin-bottom: 20px
+    }
+
+    .right-social ul {
+        text-align: left
+    }
+
+    .grid1 {
+        display: none
+    }
+
+    .grid2 {
+        display: none
+    }
+
+    .craft-cont h2 {
+        font-size: 48px;
+        line-height: 65px;
+        width: 100%
+    }
+
+    .core-img {
+        display: none
+    }
+
+    .craft-dot.craft-dot3 {
+        left: 50%
+    }
+
+    .process-title h2 br {
+        display: none
+    }
+
+    .mob-title .process-title {
+        width: 100%;
+        text-align: center
+    }
+
+    .craft-cont p {
+        width: 70%
+    }
+
+    .market-cont {
+        margin: 30px 0;
+        margin-bottom: 40px;
+        text-align: center
+    }
+
+    .markt-row {
+        margin-bottom: 0
+    }
+
+    .interface-box {
+        margin-bottom: 30px
+    }
+
+    .hero-portfolio {
+        margin-bottom: 30px
+    }
+
+    .counter-box {
+        width: 30%;
+        float: left;
+        justify-content: flex-start
+    }
+
+    .counter-box {
+        width: 30%;
+        float: left;
+        justify-content: flex-start;
+        display: block;
+        margin-bottom: 20px
+    }
+
+    .counter-boxes {
+        display: inline-block
+    }
+
+    .mobile-cont h2 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 10px
+    }
+
+    .app-title .process-title {
+        width: 100%
+    }
+
+    .mobportfolio-box {
+        margin-bottom: 30px
+    }
+
+    .enterprize-bg {
+        display: none
+    }
+
+    .enterprize-img {
+        margin-top: 60px
+    }
+
+    .leaf {
+        top: -20px;
+        left: 75%;
+        margin: 0
+    }
+
+    .Ecommerce-bg {
+        display: none
+    }
+
+    .web-cont {
+        margin-bottom: 30px
+    }
+
+    .navbar-nav li .dropdown-menu {
+        box-shadow: none;
+        border: 1px solid #a6a6a6;
+        width: fit-content;
+        padding: 10px 20px;
+        left: 0;
+        top: 0;
+        margin: 0;
+        border-radius: 4px
+    }
+
+    .sub-menu-box {
+        display: block;
+        padding: 0
+    }
+
+    .sub-menu {
+        border: 0;
+        top: 0;
+        padding: 0
+    }
+
+    .submenu-img {
+        display: none
+    }
+
+    .navbar-nav li .dropdown-menu ul {
+        display: none
+    }
+
+    .main-ad {
+        display: none
+    }
+
+    .award-content h2 {
+        font-size: 36px;
+        line-height: 53px
+    }
+
+    .mission-content h2 {
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: .5px
+    }
+
+    .user-cont {
+        width: 100%
+    }
+
+    .enterprize-cont h2 br {
+        display: none
+    }
+
+    .carrer-bg {
+        display: none
+    }
+
+    .apply-form {
+        margin: 50px 0
+    }
+
+    .wordpress-title h2 {
+        font-size: 36px;
+        line-height: 50px
+    }
+
+    .gried-box {
+        display: none
+    }
+
+    .apply-gried {
+        display: none
+    }
+
+    .hero-process .contact-img {
+        padding-bottom: 40px
+    }
+
+    .contact-title {
+        padding-bottom: 0
+    }
+
+    .hero-navigate {
+        padding-bottom: 30px
+    }
+
+    .backgrounds-bgg {
+        position: initial
+    }
+
+    .main-access {
+        margin-top: 20px
+    }
+
+    .apps .process-main-title2 .process-title {
+        width: 100%
+    }
+
+    .row.newspace {
+        padding-top: 0
+    }
+
+    .main-box.mainbox.main1 {
+        margin-top: 20px
+    }
+
+    .main-code-content .box-bg {
+        justify-content: end;
+        align-items: center;
+        display: flex;
+        margin-top: 60px
+    }
+
+    .bg-image {
+        margin-left: 40px
+    }
+
+    .bg-background {
+        margin-top: 40px
+    }
+
+    .main-code-content .box-bg1 {
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+        margin-top: 60px
+    }
+
+    .bg-image1 {
+        margin-right: 40px
+    }
+
+    .award-img.newdecide {
+        position: initial
+    }
+
+    section.hero-process.hero-enables {
+        margin-top: 0
+    }
+
+    .angularjs-box {
+        width: 100%
+    }
+
+    .background-bgr {
+        position: absolute;
+        right: 0;
+        bottom: -260px;
+        z-index: -99999
+    }
+
+    .honey-export .Ecommerce-bg, .honey-export .pattern-1 {
+        display: none
+    }
+
+    .honey-export .aproch-img, .honey-export .enterprize-img {
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .honey-export .honey-cont-title {
+        margin-top: 80px
+    }
+
+    .honey-export.section-2, .honey-export.section-3 {
+        margin: 0;
+        padding: 0
+    }
+
+        .honey-export.section-3 .honey-cont-title {
+            margin-top: 20px
+        }
+
+    .honey-export .honey-cont {
+        margin-top: 10px
+    }
+
+    .honey-export.section-4 {
+        margin: 100px 0 0
+    }
+
+    .honey-export .process-title {
+        width: 100%;
+        text-align: center;
+        padding-right: 0
+    }
+
+    .applyingpopup .attach .input-group .form-control {
+        width: 60%
+    }
+
+    .applyingpopup .attach .input-group .input-apply2, #hiringpopup .attach .input-group .dream-input {
+        width: 58%
+    }
+
+    .attach .input-group-btn {
+        width: 50%
+    }
+
+    .testimonial-video:after {
+        width: 70%;
+        height: 38% !important;
+        top: 50%;
+        right: 14px !important
+    }
+
+    .testimonial-video:before {
+        width: 70%;
+        height: 50% !important;
+        top: 50%;
+        right: 28px !important
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 18%;
+        bottom: -130px
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:992px) {
+    .honey-export .Ecommerce-bg, .honey-export .enterprize-bg, .honey-export .pattern-1 {
+        display: none
+    }
+
+    .honey-export .aproch-img, .honey-export .enterprize-img {
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .honey-export .honey-cont-title {
+        margin-top: 80px
+    }
+
+    .honey-export.section-2, .honey-export.section-3 {
+        margin: 0;
+        padding: 0
+    }
+
+        .honey-export.section-3 .honey-cont-title {
+            margin-top: 20px
+        }
+
+    .honey-export .honey-cont {
+        margin-top: 10px
+    }
+
+    .honey-export.section-4 {
+        margin: 100px 0 0
+    }
+
+    .honey-export .process-title {
+        width: 50%;
+        text-align: right;
+        padding-right: 20px
+    }
+
+    .honey-export .core-image-design {
+        display: none
+    }
+
+    .homepage {
+        bottom: -340px !important
+    }
+
+    .applyingpopup .attach .input-group .form-control {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width:875px) {
+    .testimonial-video:before {
+        display: none
+    }
+
+    .testimonial-video:after {
+        display: none
+    }
+}
+
+@media screen and (max-width:767px) {
+    testimonial-review .item {
+        display: block !important
+    }
+
+    .newspace .main-box {
+        margin-bottom: 20px
+    }
+
+    .mobport-cont ul li {
+        margin-bottom: 10px
+    }
+
+    .attach .input-group .form-control {
+        width: 70%
+    }
+
+    .applyingpopup .dream-img {
+        display: none
+    }
+
+    .applyingpopup .dream-cont {
+        width: 100%
+    }
+
+    .applyingpopup .attach .input-group .input-apply2, #hiringpopup .attach .input-group .dream-input {
+        width: 77%
+    }
+
+    .attach .input-group-btn {
+        width: 50%
+    }
+
+    #hiringpopup .dream-img {
+        display: none
+    }
+
+    #hiringpopup .dream-cont {
+        width: 100%
+    }
+
+    .testimonial-video:after {
+        display: none
+    }
+
+    .testimonial-video:before {
+        display: none
+    }
+
+    .testimonial-video iframe {
+        width: 100%
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 50%;
+        bottom: -80px
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .apply-input .input_box_2 {
+        margin-bottom: 20px;
+    }
+
+        .apply-input .input_box_2 .input-apply {
+            margin-bottom: 0;
+        }
+
+    .apply-input .input_box input {
+        margin-bottom: 0;
+    }
+
+    .apply-input .input_box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .touch-btn .header-btn {
+        margin-left: 0
+    }
+
+    .header-btn {
+        width: 100%;
+        padding: 13px 0;
+        text-align: center
+    }
+
+    .project-btn .header-btn {
+        width: 100%
+    }
+
+    .homepage {
+        bottom: -200px !important
+    }
+
+    .process-title h2 {
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 10px
+    }
+
+    .craft-cont h2 {
+        font-size: 30px;
+        line-height: 45px
+    }
+
+    .craft-cont p {
+        width: 100%;
+        font-size: 16px
+    }
+
+    .aproch-box {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center
+    }
+
+    .aproch-boxes {
+        display: block;
+        margin-bottom: 30px
+    }
+
+    .market-cont h5 {
+        font-size: 24px
+    }
+
+    .counter-box {
+        width: 50%
+    }
+
+    .mobport-cont ul li a {
+        margin: 0 3px
+    }
+
+    .mobport-cont h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px
+    }
+
+    .enterprize-cont h2 {
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 15px
+    }
+
+    .hero-creatapp {
+        margin: 40px 0
+    }
+
+    .hero-think {
+        margin: 40px 0
+    }
+
+    .enterprize-list {
+        margin-bottom: 30px
+    }
+
+    .web-cont h1 {
+        font-size: 30px;
+        line-height: 45px
+    }
+
+    .web-cont p {
+        font-size: 16px
+    }
+
+    .leaf {
+        display: none
+    }
+
+    .hero-tech-slider {
+        padding: 40px 0
+    }
+
+    .hero-mobileapi {
+        padding: 0
+    }
+
+    .hero-ecomerce .enterprize-cont2 {
+        margin-top: 40px
+    }
+
+    .hero-enterprise {
+        padding: 0
+    }
+
+    .award-content h3 {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .award-content h2 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .award-content p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .award-content {
+        margin-bottom: 30px
+    }
+
+    .choosetitle-content h2 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .choosetitle-content p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .mission-content h2 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .mission-content p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .career-title h5 {
+        font-size: 20px;
+        line-height: 30px;
+        min-height: auto
+    }
+
+    .wordpress-title h2 {
+        font-size: 26px;
+        line-height: 35px
+    }
+
+    .job-info-cont p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .job-info-title h5 {
+        margin-bottom: 20px
+    }
+
+    .apply-form {
+        margin: 40px 0
+    }
+
+    .apply-input {
+        display: block;
+        margin: 0
+    }
+
+    .input-apply {
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .hero-process .contact-img {
+        padding-bottom: 40px
+    }
+
+    .contact-title h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .newgrid {
+        position: relative
+    }
+
+        .newgrid .main-ad {
+            position: absolute;
+            right: 0
+        }
+
+    .contactspace {
+        padding-top: 0
+    }
+
+    .contact-title {
+        padding-bottom: 50px
+    }
+
+    .hero-navigate {
+        padding-bottom: 30px
+    }
+
+    .contact-title h3 {
+        font-size: 18px
+    }
+
+    .contact-title p {
+        font-size: 14px
+    }
+
+    .backgrounds-bgg {
+        position: static;
+        right: 0;
+        bottom: 0
+    }
+
+    .mytwo {
+        width: 100% !important
+    }
+
+    .row.newspace {
+        padding-top: 0
+    }
+
+    .mainbox {
+        margin-top: 20px;
+        text-align: center
+    }
+
+    .main-box {
+        text-align: center
+    }
+
+    .newspae {
+        text-align: center;
+        color: #0094c4;
+        font-family: Muli-ExtraBold;
+        margin-top: 30px
+    }
+
+    .bg-image {
+        margin-right: 130px
+    }
+
+    .bg-image1 {
+        margin-left: 130px
+    }
+
+    .bg-background {
+        margin-top: 60px
+    }
+
+    .hero-process .techfonts h2 {
+        font-size: 42px;
+        line-height: 70px;
+        font-family: Muli-ExtraBold
+    }
+
+    .hero-process .techfonts h3 {
+        font-size: 20px;
+        line-height: 40px;
+        font-family: Muli-ExtraBold
+    }
+
+    .newbox-here .newbox-android h2 {
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: .64px;
+        font-family: Muli-ExtraBold
+    }
+
+    .newbox-here .newbox-android p {
+        font-size: 14px;
+        line-height: 30px;
+        color: #818588;
+        margin-top: 12px
+    }
+
+    .award-img.newdecide {
+        position: initial;
+        margin-top: 20px
+    }
+
+    section.hero-process.hero-enables {
+        margin-top: 0
+    }
+
+    .hero-process .techfonts h2 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .hero-process .techfonts h3 {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .hero-process .techfonts p {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .main-contentt h2 {
+        font-size: 20px;
+        margin-top: 23px;
+        letter-spacing: .52px;
+        font-family: Muli-ExtraBold
+    }
+
+    .hero-process .newbold {
+        font-size: 26px !important;
+        letter-spacing: .42px !important
+    }
+
+    .hero-process .newsoft {
+        font-size: 18px !important;
+        letter-spacing: .22px !important
+    }
+
+    .main-code-content .box-bg .content p {
+        font-size: 14px;
+        text-align: right;
+        color: #818588;
+        font-family: Muli-SemiBold;
+        margin-top: 13px;
+        line-height: 28px
+    }
+
+    .main-code-content .box-bg .content h2 {
+        font-size: 20px;
+        font-family: Muli-ExtraBold;
+        text-align: right
+    }
+
+    .main2 {
+        margin-bottom: 0
+    }
+
+    .main-contentt p {
+        letter-spacing: .32px;
+        font-size: 14px;
+        line-height: 30px;
+        color: #818588;
+        margin-top: 12px
+    }
+
+    .hero-process .backgrounds-bg .backgrounds-content h2 {
+        font-size: 26px;
+        line-height: 40px;
+        margin: 0;
+        letter-spacing: .52px;
+        text-align: center;
+        color: #fff;
+        font-family: Muli-ExtraBold
+    }
+
+    .hero-process .privay-inner-content p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 10px;
+        font-family: Muli-SemiBold;
+        letter-spacing: .54px
+    }
+
+    .hero-process .privay-inner-content h2 {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: .6px;
+        margin-bottom: 0;
+        font-family: Muli-ExtraBold
+    }
+
+    .proce-main {
+        margin-bottom: 30px
+    }
+
+    .background-bgr {
+        position: absolute;
+        right: 0;
+        bottom: -210px;
+        z-index: -99999
+    }
+
+    .enterprice-content h2 {
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        font-family: Muli-ExtraBold
+    }
+
+    ul.tribute {
+        margin-right: 0
+    }
+
+    .enterprice-content h2 {
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        font-family: Muli-ExtraBold
+    }
+
+    .honey-export .dot-design-1, .honey-export .dot-design-2, .honey-export .pattern-2 {
+        display: none
+    }
+
+    .dedicated-cont h5 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .attach .form-group {
+        margin-bottom: 20px
+    }
+
+    .applyingpopup .attach .input-group .input-apply2, #hiringpopup .attach .input-group .dream-input {
+        width: 100%
+    }
+
+    .attach .input-apply, #hiringpopup .attach .input-group .dream-input {
+        margin-bottom: 20px
+    }
+
+    .attach .input-group-btn {
+        width: 100%;
+        margin-left: 0
+    }
+
+    #hiringpopup .attach .form-group {
+        margin-bottom: 0
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 25%;
+        bottom: -140px
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .bg-image {
+        margin-right: 0
+    }
+
+    .bg-image1 {
+        margin-left: 0
+    }
+
+    .main-code-content .box-bg1 .content h2 {
+        font-size: 18px;
+        font-family: Muli-ExtraBold;
+        text-align: left
+    }
+
+    .main-code-content .box-bg .content h2 {
+        font-size: 18px;
+        font-family: Muli-ExtraBold;
+        text-align: right
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 8%;
+        bottom: -140px
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .bg-image {
+        margin-right: 0
+    }
+
+    .bg-image1 {
+        margin-left: 0
+    }
+
+    .main-code-content .box-bg1 .content h2 {
+        font-size: 18px;
+        font-family: Muli-ExtraBold;
+        text-align: left
+    }
+
+    .main-code-content .box-bg .content h2 {
+        font-size: 18px;
+        font-family: Muli-ExtraBold;
+        text-align: right
+    }
+
+    a.navbar-brand {
+        width: 150px !important
+    }
+
+    .support-link {
+        word-break: break-all
+    }
+
+    .textimonial-title .process-title {
+        padding-right: 0
+    }
+
+    .process-title {
+        padding: 0 20px !important
+    }
+
+    .testimonial-video iframe {
+        height: 200px
+    }
+
+    .mobport-cont ul li {
+        margin-bottom: 10px
+    }
+
+    .hire-date span {
+        display: none
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .bg-image {
+        margin-right: 0;
+        margin-top: 4px
+    }
+
+    .main-code-content .box-bg .content h2 {
+        font-size: 20px;
+        font-family: Muli-ExtraBold;
+        text-align: center
+    }
+
+    .main-code-content .box-bg .content p {
+        font-size: 14px;
+        text-align: center;
+        color: #818588;
+        margin-top: 13px;
+        line-height: 28px
+    }
+
+    .main-code-content .box-bg, .main-code-content .box-bg1 {
+        justify-content: space-between;
+        align-items: center;
+        display: block;
+        text-align: center
+    }
+
+    .bg-image1 {
+        margin-left: 0;
+        margin-bottom: 10px
+    }
+
+    .main-code-content .box-bg1 .content h2 {
+        font-size: 20px;
+        font-family: Muli-ExtraBold;
+        text-align: center
+    }
+
+    .main-code-content .box-bg1 .content p {
+        font-size: 14px;
+        text-align: center;
+        color: #818588;
+        margin-top: 13px;
+        line-height: 28px
+    }
+
+    .background-bgr {
+        position: absolute;
+        right: 0;
+        bottom: -109px;
+        z-index: -99999
+    }
+
+    .core-dot .elegent-dot.homepage-2 {
+        left: 5%;
+        bottom: -140px
+    }
+}

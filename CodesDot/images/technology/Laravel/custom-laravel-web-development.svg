@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.001" height="41.382" viewBox="0 0 40.001 41.382">
+  <g id="Custom_Laravel_Web_Development" data-name="Custom Laravel Web Development" transform="translate(-8.01)">
+    <g id="Group_13880" data-name="Group 13880" transform="translate(8.01 0)">
+      <g id="Group_13879" data-name="Group 13879" transform="translate(0 0)">
+        <path id="Path_20538" data-name="Path 20538" d="M43.873,4.829H35.528a8.262,8.262,0,0,0-15.028,0H12.148A4.142,4.142,0,0,0,8.01,8.967v21.38a4.142,4.142,0,0,0,4.138,4.138H22.917L22,37.244H14.217a2.069,2.069,0,1,0,0,4.138H41.8a2.069,2.069,0,1,0,0-4.138H34.025L33.1,34.485H43.873a4.142,4.142,0,0,0,4.138-4.138V8.967A4.142,4.142,0,0,0,43.873,4.829ZM28.01,1.381a6.9,6.9,0,1,1-6.9,6.9A6.9,6.9,0,0,1,28.01,1.381ZM41.8,38.623A.69.69,0,1,1,41.8,40H14.217a.69.69,0,1,1,0-1.379ZM23.45,37.244l.921-2.759H31.65l.919,2.759Zm23.181-6.9a2.759,2.759,0,0,1-2.759,2.759H12.148a2.759,2.759,0,0,1-2.759-2.759V28.968H46.632Zm0-2.759H9.389V8.967a2.759,2.759,0,0,1,2.759-2.759H20.01a8.168,8.168,0,0,0,1.1,6.634v4.593l-2.923.975a2.743,2.743,0,1,0,.112,1.416l3.718-1.241a.69.69,0,0,0,.472-.652v-3.5a8.245,8.245,0,0,0,3.448,1.852v4.041L24.7,21.15a2.844,2.844,0,1,0,.923,1.042l1.39-.927a.69.69,0,0,0,.307-.574V16.519c.228.019.457.035.69.035s.461-.016.69-.035v2.794a.69.69,0,0,0,.307.574l1.39.927a2.717,2.717,0,0,0-.318,1.258,2.767,2.767,0,1,0,1.241-2.3l-1.241-.828V16.281a8.245,8.245,0,0,0,3.448-1.852v2.815a.69.69,0,0,0,.381.617l3.8,1.9a2.752,2.752,0,1,0,.154-1.466l-2.958-1.479V12.843a8.168,8.168,0,0,0,1.107-6.634h7.859a2.759,2.759,0,0,1,2.759,2.759V27.589ZM16.976,19.312A1.379,1.379,0,1,1,15.6,17.933,1.379,1.379,0,0,1,16.976,19.312Zm7.586,4.138a1.379,1.379,0,1,1-1.379-1.379A1.379,1.379,0,0,1,24.562,23.45Zm6.9-1.379a1.379,1.379,0,1,1,1.379,1.379A1.379,1.379,0,0,1,31.459,22.071Zm7.586-2.759a1.379,1.379,0,1,1,1.379,1.379A1.379,1.379,0,0,1,39.045,19.312Z" transform="translate(-8.01 0)" fill="#037ca4"/>
+      </g>
+    </g>
+    <g id="Group_13882" data-name="Group 13882" transform="translate(27.321 30.347)">
+      <g id="Group_13881" data-name="Group 13881">
+        <rect id="Rectangle_2981" data-name="Rectangle 2981" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13884" data-name="Group 13884" transform="translate(24.764 2.761)">
+      <g id="Group_13883" data-name="Group 13883">
+        <path id="Path_20539" data-name="Path 20539" d="M206.088,32.223a.69.69,0,0,0-.975,0l-2.759,2.759.975.975,1.581-1.581v4.542h1.379V34.375l1.581,1.581.975-.975Z" transform="translate(-202.354 -32.021)" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13886" data-name="Group 13886" transform="translate(23.872 9.657)">
+      <g id="Group_13885" data-name="Group 13885">
+        <path id="Path_20540" data-name="Path 20540" d="M198.907,112.019V113.4h-5.517v-1.379H192.01v2.069a.69.69,0,0,0,.69.69h6.9a.69.69,0,0,0,.69-.69v-2.069Z" transform="translate(-192.01 -112.019)" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13888" data-name="Group 13888" transform="translate(11.458 11.036)">
+      <g id="Group_13887" data-name="Group 13887" transform="translate(0)">
+        <rect id="Rectangle_2982" data-name="Rectangle 2982" width="6.207" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13890" data-name="Group 13890" transform="translate(11.458 13.795)">
+      <g id="Group_13889" data-name="Group 13889" transform="translate(0)">
+        <rect id="Rectangle_2983" data-name="Rectangle 2983" width="4.138" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13892" data-name="Group 13892" transform="translate(14.217 8.278)">
+      <g id="Group_13891" data-name="Group 13891">
+        <rect id="Rectangle_2984" data-name="Rectangle 2984" width="3.448" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13894" data-name="Group 13894" transform="translate(11.458 8.278)">
+      <g id="Group_13893" data-name="Group 13893" transform="translate(0)">
+        <rect id="Rectangle_2985" data-name="Rectangle 2985" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13896" data-name="Group 13896" transform="translate(11.458 24.14)">
+      <g id="Group_13895" data-name="Group 13895" transform="translate(0)">
+        <rect id="Rectangle_2986" data-name="Rectangle 2986" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13898" data-name="Group 13898" transform="translate(14.217 24.14)">
+      <g id="Group_13897" data-name="Group 13897">
+        <rect id="Rectangle_2987" data-name="Rectangle 2987" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13900" data-name="Group 13900" transform="translate(16.976 24.14)">
+      <g id="Group_13899" data-name="Group 13899" transform="translate(0)">
+        <rect id="Rectangle_2988" data-name="Rectangle 2988" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13902" data-name="Group 13902" transform="translate(43.183 24.14)">
+      <g id="Group_13901" data-name="Group 13901" transform="translate(0)">
+        <rect id="Rectangle_2989" data-name="Rectangle 2989" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13904" data-name="Group 13904" transform="translate(40.425 24.14)">
+      <g id="Group_13903" data-name="Group 13903">
+        <rect id="Rectangle_2990" data-name="Rectangle 2990" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13906" data-name="Group 13906" transform="translate(37.666 24.14)">
+      <g id="Group_13905" data-name="Group 13905">
+        <rect id="Rectangle_2991" data-name="Rectangle 2991" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13908" data-name="Group 13908" transform="translate(38.356 11.036)">
+      <g id="Group_13907" data-name="Group 13907">
+        <rect id="Rectangle_2992" data-name="Rectangle 2992" width="6.207" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13910" data-name="Group 13910" transform="translate(38.356 13.795)">
+      <g id="Group_13909" data-name="Group 13909">
+        <rect id="Rectangle_2993" data-name="Rectangle 2993" width="4.138" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13912" data-name="Group 13912" transform="translate(41.114 8.278)">
+      <g id="Group_13911" data-name="Group 13911" transform="translate(0)">
+        <rect id="Rectangle_2994" data-name="Rectangle 2994" width="3.448" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+    <g id="Group_13914" data-name="Group 13914" transform="translate(38.356 8.278)">
+      <g id="Group_13913" data-name="Group 13913">
+        <rect id="Rectangle_2995" data-name="Rectangle 2995" width="1.379" height="1.379" fill="#7e75e4"/>
+      </g>
+    </g>
+  </g>
+</svg>

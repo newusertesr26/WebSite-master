@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="73" viewBox="0 0 71 73">
+  <g id="Custom_Wordpress_development" data-name="Custom Wordpress development" transform="translate(-450 -2887)">
+    <rect id="Rectangle_2434" data-name="Rectangle 2434" width="71" height="73" rx="12" transform="translate(450 2887)" fill="#067ac4" opacity="0.15"/>
+    <g id="presentation" transform="translate(470.648 2907.788)">
+      <path id="Path_18240" data-name="Path 18240" d="M12.14,25.955a.64.64,0,0,1-.64-.64V17.64a.64.64,0,0,1,1.279,0v7.676A.64.64,0,0,1,12.14,25.955Z" transform="translate(3.212 4.469)" fill="#067ac4"/>
+      <path id="Path_18241" data-name="Path 18241" d="M17.9,25.117a.639.639,0,0,1-.354-.107l-5.757-3.838a.639.639,0,1,1,.709-1.064l5.757,3.838a.64.64,0,0,1-.354,1.172Z" transform="translate(3.212 5.307)" fill="#067ac4"/>
+      <path id="Path_18242" data-name="Path 18242" d="M7.64,25.117a.64.64,0,0,1-.356-1.172l5.757-3.838a.639.639,0,1,1,.709,1.064L7.993,25.01A.626.626,0,0,1,7.64,25.117Z" transform="translate(1.955 5.307)" fill="#067ac4"/>
+      <path id="Path_18243" data-name="Path 18243" d="M28.145,6.117H2.559A2.559,2.559,0,0,1,2.559,1H28.145a2.559,2.559,0,0,1,0,5.117ZM2.559,2.279a1.279,1.279,0,0,0,0,2.559H28.145a1.279,1.279,0,0,0,0-2.559Z" fill="#067ac4"/>
+      <path id="Path_18244" data-name="Path 18244" d="M25.667,21.91H3.919A1.921,1.921,0,0,1,2,19.991V4.64A.64.64,0,0,1,2.64,4H26.946a.64.64,0,0,1,.64.64V19.991A1.921,1.921,0,0,1,25.667,21.91ZM3.279,5.279V19.991a.64.64,0,0,0,.64.64H25.667a.64.64,0,0,0,.64-.64V5.279Z" transform="translate(0.559 0.838)" fill="#067ac4"/>
+      <path id="Path_18245" data-name="Path 18245" d="M6.64,17.234a.639.639,0,0,1-.453-1.091L11.3,11.026a.64.64,0,0,1,.807-.081l3.35,2.234,4.75-5.938a.64.64,0,1,1,1,.8l-5.117,6.4a.639.639,0,0,1-.855.133l-3.4-2.267L7.091,17.049a.641.641,0,0,1-.452.185Z" transform="translate(1.676 1.676)" fill="#067ac4"/>
+    </g>
+  </g>
+</svg>

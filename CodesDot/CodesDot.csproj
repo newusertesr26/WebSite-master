@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84C334D4-9CFF-45DD-BCBA-627AD975D040}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodesDot</RootNamespace>
+    <AssemblyName>CodesDot</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK, Version=2.3.55.2, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.2.3.55.2\lib\net45\AWSSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\careerController.cs" />
+    <Compile Include="Controllers\hireusController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\portfolioController.cs" />
+    <Compile Include="Controllers\servicesController.cs" />
+    <Compile Include="Controllers\TechnologiesController.cs" />
+    <Compile Include="Controllers\TechnologyController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Career.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CareerModel.cs" />
+    <Compile Include="Models\Contact.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactusModel.cs" />
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portfolio.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PortfolioModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajax\libs\animate.css\4.1.1\animate.min.css" />
+    <Content Include="ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\site.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="images\about\a1.svg" />
+    <Content Include="images\about\aa2.png" />
+    <Content Include="images\about\about-us.png" />
+    <Content Include="images\about\Achievement.svg" />
+    <Content Include="images\about\Design.svg" />
+    <Content Include="images\about\Discover.svg" />
+    <Content Include="images\about\header-img.svg" />
+    <Content Include="images\about\hero2.png" />
+    <Content Include="images\about\missing-of-greatness.svg" />
+    <Content Include="images\about\Project.svg" />
+    <Content Include="images\about\Repeat-Grid.svg" />
+    <Content Include="images\about\user1.svg" />
+    <Content Include="images\about\what-we-are-2.png" />
+    <Content Include="images\about\what-we-are.svg" />
+    <Content Include="images\Angular\cross.svg" />
+    <Content Include="images\Angular\Custom.svg" />
+    <Content Include="images\Angular\efficiency.svg" />
+    <Content Include="images\Angular\Hire.svg" />
+    <Content Include="images\Angular\Hybrid.svg" />
+    <Content Include="images\Angular\Migration.svg" />
+    <Content Include="images\Angular\mvc.svg" />
+    <Content Include="images\Angular\object.svg" />
+    <Content Include="images\Angular\reusble.svg" />
+    <Content Include="images\Angular\two-way.svg" />
+    <Content Include="images\Angular\UIUX.svg" />
+    <Content Include="images\Career\career-dark.png" />
+    <Content Include="images\Career\career.png" />
+    <Content Include="images\Career\contact-dark.png" />
+    <Content Include="images\Career\contact.png" />
+    <Content Include="images\Career\wordpress-header.png" />
+    <Content Include="images\contactus\hero-contact.svg" />
+    <Content Include="images\craft\aproch-dark-img.png" />
+    <Content Include="images\craft\aproch-img.svg" />
+    <Content Include="images\craft\BGpettarn\bluetri.svg" />
+    <Content Include="images\craft\BGpettarn\Ellipse.svg" />
+    <Content Include="images\craft\BGpettarn\Ellipse1.svg" />
+    <Content Include="images\craft\BGpettarn\Polygon-1.svg" />
+    <Content Include="images\craft\BGpettarn\Polygon1.svg" />
+    <Content Include="images\craft\BGpettarn\Polygon2.svg" />
+    <Content Include="images\craft\costeffective.svg" />
+    <Content Include="images\craft\craft-header.svg" />
+    <Content Include="images\craft\design.svg" />
+    <Content Include="images\craft\digitalexperiance.svg" />
+    <Content Include="images\craft\group.svg" />
+    <Content Include="images\craft\interface.svg" />
+    <Content Include="images\craft\lowerrisk.svg" />
+    <Content Include="images\craft\market-dark-img.png" />
+    <Content Include="images\craft\market.svg" />
+    <Content Include="images\craft\mindmap-dark-img.png" />
+    <Content Include="images\craft\mindmap.svg" />
+    <Content Include="images\craft\objective.svg" />
+    <Content Include="images\craft\RepeatGrid.svg" />
+    <Content Include="images\craft\scope.svg" />
+    <Content Include="images\craft\speed.svg" />
+    <Content Include="images\craft\Strategy.svg" />
+    <Content Include="images\craft\task.svg" />
+    <Content Include="images\craft\thoughts.svg" />
+    <Content Include="images\craft\work.svg" />
+    <Content Include="images\gdp_impex\about-project.png" />
+    <Content Include="images\gdp_impex\Features.png" />
+    <Content Include="images\gdp_impex\header-image.png" />
+    <Content Include="images\gdp_impex\image1.png" />
+    <Content Include="images\gdp_impex\image2.png" />
+    <Content Include="images\gdp_impex\logo.png" />
+    <Content Include="images\hireus\Backed-Developer-img.svg" />
+    <Content Include="images\hireus\Backed-Developer-img2.svg" />
+    <Content Include="images\hireus\colourbg.png" />
+    <Content Include="images\hireus\FrontEnd-Developer-img.svg" />
+    <Content Include="images\hireus\FrontEnd-Developer-img2.svg" />
+    <Content Include="images\hireus\Full-time-hiring.svg" />
+    <Content Include="images\hireus\FullStack-Developer-img.svg" />
+    <Content Include="images\hireus\FullStack-Developer-img2.svg" />
+    <Content Include="images\hireus\full_stack.jpg" />
+    <Content Include="images\hireus\hire-header-img.svg" />
+    <Content Include="images\hireus\hire-header-img2.svg" />
+    <Content Include="images\hireus\hire2.png" />
+    <Content Include="images\hireus\hourly-hiring.svg" />
+    <Content Include="images\hireus\part-time-hiring.svg" />
+    <Content Include="images\home\2.jpg" />
+    <Content Include="images\home\32Favicon.svg" />
+    <Content Include="images\home\77.jpg" />
+    <Content Include="images\home\78.jpg" />
+    <Content Include="images\home\79.jpg" />
+    <Content Include="images\home\achivement-img-1.svg" />
+    <Content Include="images\home\achivement-img-2.png" />
+    <Content Include="images\home\achivement-img-2.svg" />
+    <Content Include="images\home\achivement-img-3.svg" />
+    <Content Include="images\home\achivement-img-4-light.png" />
+    <Content Include="images\home\achivement-img-4.svg" />
+    <Content Include="images\home\app.svg" />
+    <Content Include="images\home\app1.png" />
+    <Content Include="images\home\arrow.svg" />
+    <Content Include="images\home\bluenext.png" />
+    <Content Include="images\home\build.svg" />
+    <Content Include="images\home\build2.svg" />
+    <Content Include="images\home\core.svg" />
+    <Content Include="images\home\customer-satisfaction.svg" />
+    <Content Include="images\home\dark.svg" />
+    <Content Include="images\home\deliver.svg" />
+    <Content Include="images\home\deliver2.svg" />
+    <Content Include="images\home\design-1.svg" />
+    <Content Include="images\home\design.svg" />
+    <Content Include="images\home\design2.svg" />
+    <Content Include="images\home\design3.svg" />
+    <Content Include="images\home\discover.svg" />
+    <Content Include="images\home\discover2.svg" />
+    <Content Include="images\home\educations.png" />
+    <Content Include="images\home\elegent.svg" />
+    <Content Include="images\home\energy.png" />
+    <Content Include="images\home\finance.png" />
+    <Content Include="images\home\gdp-Impex.png" />
+    <Content Include="images\home\gridbg.png" />
+    <Content Include="images\home\Group-1.jpg" />
+    <Content Include="images\home\Group-2.jpg" />
+    <Content Include="images\home\Group-3.jpg" />
+    <Content Include="images\home\Group-4.jpg" />
+    <Content Include="images\home\Group-5.jpg" />
+    <Content Include="images\home\Group-6.jpg" />
+    <Content Include="images\home\health.png" />
+    <Content Include="images\home\hero.png" />
+    <Content Include="images\home\hero2.png" />
+    <Content Include="images\home\Illustration.svg" />
+    <Content Include="images\home\Illustration2.svg" />
+    <Content Include="images\home\insurance.png" />
+    <Content Include="images\home\legal.png" />
+    <Content Include="images\home\light.svg" />
+    <Content Include="images\home\menu-img-1.svg" />
+    <Content Include="images\home\menu-img-2.svg" />
+    <Content Include="images\home\menu-img-3.svg" />
+    <Content Include="images\home\menu-img-4.svg" />
+    <Content Include="images\home\narmada.png" />
+    <Content Include="images\home\next.png" />
+    <Content Include="images\home\onesaid.png" />
+    <Content Include="images\home\Path-1.svg" />
+    <Content Include="images\home\Path-2.svg" />
+    <Content Include="images\home\Path-3.svg" />
+    <Content Include="images\home\qoutes.svg" />
+    <Content Include="images\home\right-arrow-2.png" />
+    <Content Include="images\home\software-1.svg" />
+    <Content Include="images\home\software.svg" />
+    <Content Include="images\home\the-medical-event.png" />
+    <Content Include="images\home\web.svg" />
+    <Content Include="images\honey-export\about-project.png" />
+    <Content Include="images\honey-export\features.png" />
+    <Content Include="images\honey-export\header-image.png" />
+    <Content Include="images\honey-export\honey-logo.svg" />
+    <Content Include="images\honey-export\image-1.png" />
+    <Content Include="images\honey-export\image-2.png" />
+    <Content Include="images\honey-export\image-3.png" />
+    <Content Include="images\honey-export\our-project-img.png" />
+    <Content Include="images\honey-export\our-project-img.svg" />
+    <Content Include="images\honey-export\pattern-1.svg" />
+    <Content Include="images\honey-export\pattern-2.svg" />
+    <Content Include="images\logo\2.png" />
+    <Content Include="images\logo\3.png" />
+    <Content Include="images\logo\dark-2.png" />
+    <Content Include="images\logo\logo-dark.png" />
+    <Content Include="images\logo\logo-light.png" />
+    <Content Include="images\logo\logo2.jpg" />
+    <Content Include="images\medical-device\artboard–1.png" />
+    <Content Include="images\medical-device\artboard–2.png" />
+    <Content Include="images\medical-device\artboard–3.png" />
+    <Content Include="images\medical-device\artboard–4.png" />
+    <Content Include="images\medical-device\group-201.png" />
+    <Content Include="images\medical-device\logo.jpg" />
+    <Content Include="images\Millonhands\about-project.png" />
+    <Content Include="images\Millonhands\Features.png" />
+    <Content Include="images\Millonhands\header-image.png" />
+    <Content Include="images\Millonhands\image1.png" />
+    <Content Include="images\Millonhands\image2.png" />
+    <Content Include="images\Millonhands\logo.png" />
+    <Content Include="images\mobile\android.svg" />
+    <Content Include="images\mobile\app-img-1.svg" />
+    <Content Include="images\mobile\app-img-2.svg" />
+    <Content Include="images\mobile\app-img-3.svg" />
+    <Content Include="images\mobile\app-img-4.png" />
+    <Content Include="images\mobile\arrow.svg" />
+    <Content Include="images\mobile\Business.svg" />
+    <Content Include="images\mobile\Consumers.svg" />
+    <Content Include="images\mobile\Enterprise.svg" />
+    <Content Include="images\mobile\gdp-impex.png" />
+    <Content Include="images\mobile\iOS-App.png" />
+    <Content Include="images\mobile\iphone.svg" />
+    <Content Include="images\mobile\medicaldeviceevents-thumb.png" />
+    <Content Include="images\mobile\mobil-enimation.png" />
+    <Content Include="images\mobile\mobile-app.png" />
+    <Content Include="images\mobile\mobile-clipart.png" />
+    <Content Include="images\mobile\mobile-img-1.svg" />
+    <Content Include="images\mobile\mobile-img-2.svg" />
+    <Content Include="images\mobile\narmada.png" />
+    <Content Include="images\mobile\onesaid.png" />
+    <Content Include="images\mobile\rap-calculator.png" />
+    <Content Include="images\mobile\reactnative.svg" />
+    <Content Include="images\mobile\sddiam-thumb.png" />
+    <Content Include="images\mobile\smile-program-thumb.png" />
+    <Content Include="images\mobile\swift.svg" />
+    <Content Include="images\mobile\thedentalviews-thumb.png" />
+    <Content Include="images\mobile\wallpapers-for-me.png" />
+    <Content Include="images\mobile\xamarin.svg" />
+    <Content Include="images\Narmada\about-project.png" />
+    <Content Include="images\Narmada\Features.png" />
+    <Content Include="images\Narmada\header-image.png" />
+    <Content Include="images\Narmada\image1.png" />
+    <Content Include="images\Narmada\image2.png" />
+    <Content Include="images\Narmada\logo.png" />
+    <Content Include="images\Onesaid\artboard–5.png" />
+    <Content Include="images\Onesaid\artboard–6.png" />
+    <Content Include="images\Onesaid\artboard–7.png" />
+    <Content Include="images\Onesaid\artboard–8.png" />
+    <Content Include="images\Onesaid\group-566.png" />
+    <Content Include="images\Onesaid\logo.png" />
+    <Content Include="images\portfolio\portfolio-img-1.png" />
+    <Content Include="images\portfolio\portfolio-img-2.png" />
+    <Content Include="images\portfolio\portfolio-img-3.png" />
+    <Content Include="images\SD_DIam\about-project.png" />
+    <Content Include="images\SD_DIam\Features.png" />
+    <Content Include="images\SD_DIam\header-image.png" />
+    <Content Include="images\SD_DIam\image1.png" />
+    <Content Include="images\SD_DIam\image2.png" />
+    <Content Include="images\SD_DIam\logo.png" />
+    <Content Include="images\Smile_Program\about-project.png" />
+    <Content Include="images\Smile_Program\Features.png" />
+    <Content Include="images\Smile_Program\header-image.png" />
+    <Content Include="images\Smile_Program\image1.png" />
+    <Content Include="images\Smile_Program\image2.png" />
+    <Content Include="images\Smile_Program\logo.png" />
+    <Content Include="images\software-development\3-Best.png" />
+    <Content Include="images\software-development\application-integration.svg" />
+    <Content Include="images\software-development\application-migration-and-reengineering.svg" />
+    <Content Include="images\software-development\bespoke-software-development.svg" />
+    <Content Include="images\software-development\bespoke.png" />
+    <Content Include="images\software-development\cust-software.png" />
+    <Content Include="images\software-development\custom-development.png" />
+    <Content Include="images\software-development\custom.png" />
+    <Content Include="images\software-development\desk-software.png" />
+    <Content Include="images\software-development\eco-software.svg" />
+    <Content Include="images\software-development\eco-software2.svg" />
+    <Content Include="images\software-development\ent-software.svg" />
+    <Content Include="images\software-development\ent-software2.svg" />
+    <Content Include="images\software-development\images.jpg" />
+    <Content Include="images\software-development\laptop_pic132.png" />
+    <Content Include="images\software-development\maintenance-and-support.svg" />
+    <Content Include="images\software-development\migration.png" />
+    <Content Include="images\software-development\mobileappservice-about.jpg" />
+    <Content Include="images\software-development\people01-1.png" />
+    <Content Include="images\software-development\popup-image.svg" />
+    <Content Include="images\software-development\popup-image2.svg" />
+    <Content Include="images\software-development\saas-applications-development.svg" />
+    <Content Include="images\software-development\saas.png" />
+    <Content Include="images\software-development\services-sys-integration-page-650x433.png" />
+    <Content Include="images\software-development\software-application-maintenance.svg" />
+    <Content Include="images\software-development\software-img.svg" />
+    <Content Include="images\software-development\software-img2.svg" />
+    <Content Include="images\software-development\System-Integrations.jpg" />
+    <Content Include="images\software-development\unnamed.png" />
+    <Content Include="images\software-development\vector_enter_mobile.png" />
+    <Content Include="images\technology\android\aarya-gst.png" />
+    <Content Include="images\technology\android\android-mobile.png" />
+    <Content Include="images\technology\android\android-ui-ux-design.svg" />
+    <Content Include="images\technology\android\business-android-apps.svg" />
+    <Content Include="images\technology\android\custom-android-app-development.svg" />
+    <Content Include="images\technology\android\gdp-impex.png" />
+    <Content Include="images\technology\android\native-android-development-app.svg" />
+    <Content Include="images\technology\android\social-networking-android-apps.svg" />
+    <Content Include="images\technology\android\support-maintain-upgrade-android-apps.svg" />
+    <Content Include="images\technology\android\wallpapers-for-me.png" />
+    <Content Include="images\technology\android\what-use-image.png" />
+    <Content Include="images\technology\android\what-we-do-image.png" />
+    <Content Include="images\technology\Angular\angular-development-services.png" />
+    <Content Include="images\technology\Angular\dev-talento-thumb.png" />
+    <Content Include="images\technology\Angular\honeyexport-thumb.png" />
+    <Content Include="images\technology\Angular\onesaid.png" />
+    <Content Include="images\technology\Asp.Net\api-integration-development.svg" />
+    <Content Include="images\technology\Asp.Net\app-integration.svg" />
+    <Content Include="images\technology\Asp.Net\custom-application-development.svg" />
+    <Content Include="images\technology\Asp.Net\desktop-and-web-app-development.svg" />
+    <Content Include="images\technology\Asp.Net\headerimg.png" />
+    <Content Include="images\technology\Asp.Net\honeyexport-thumb.png" />
+    <Content Include="images\technology\Asp.Net\narmada.png" />
+    <Content Include="images\technology\Asp.Net\net-quick-deliveries.svg" />
+    <Content Include="images\technology\Asp.Net\sddiam-thumb.png" />
+    <Content Include="images\technology\Asp.Net\services-image.png" />
+    <Content Include="images\technology\Asp.Net\support-and-maintenance.svg" />
+    <Content Include="images\technology\HTML5\dev-talento-thumb.png" />
+    <Content Include="images\technology\HTML5\HTML.png" />
+    <Content Include="images\technology\HTML5\onesaid.png" />
+    <Content Include="images\technology\HTML5\thedentalviews-thumb.png" />
+    <Content Include="images\technology\ios\app.jpeg" />
+    <Content Include="images\technology\ios\App2.png" />
+    <Content Include="images\technology\ios\app3.jpg" />
+    <Content Include="images\technology\ios\bizdesk-diamond broker.png" />
+    <Content Include="images\technology\ios\custom-iPhone-app-development.svg" />
+    <Content Include="images\technology\ios\enterprise-ios-application.svg" />
+    <Content Include="images\technology\ios\ios-app-development.png" />
+    <Content Include="images\technology\ios\ios-ui-ux-design.svg" />
+    <Content Include="images\technology\ios\native-ios-app-development.svg" />
+    <Content Include="images\technology\ios\onesaid.png" />
+    <Content Include="images\technology\ios\rap-calculator.png" />
+    <Content Include="images\technology\ios\siri-integration.svg" />
+    <Content Include="images\technology\ios\support-Maintain-upgrade-ios-app.svg" />
+    <Content Include="images\technology\ios\what-use-image.png" />
+    <Content Include="images\technology\ios\What-we-do-image.png" />
+    <Content Include="images\technology\Laravel\api-integration-service.svg" />
+    <Content Include="images\technology\Laravel\clerky-thumb.png" />
+    <Content Include="images\technology\Laravel\custom-laravel-web-development.svg" />
+    <Content Include="images\technology\Laravel\enzymespharma-thumb.png" />
+    <Content Include="images\technology\Laravel\laravel-ecommerce.svg" />
+    <Content Include="images\technology\Laravel\laravel-extension-development.svg" />
+    <Content Include="images\technology\Laravel\laravel-migration-services.svg" />
+    <Content Include="images\technology\Laravel\Laravel.svg" />
+    <Content Include="images\technology\Laravel\php-framwork.png" />
+    <Content Include="images\technology\Laravel\smileprogram-thumb.png" />
+    <Content Include="images\technology\Laravel\support-and-maintenance.svg" />
+    <Content Include="images\technology\node\custom-node-js-development.svg" />
+    <Content Include="images\technology\node\gdpimpex-thumb.png" />
+    <Content Include="images\technology\node\honeyexport-thumb.png" />
+    <Content Include="images\technology\node\Layer.svg" />
+    <Content Include="images\technology\node\narmada.png" />
+    <Content Include="images\technology\node\node-js-back-end-data-management.svg" />
+    <Content Include="images\technology\node\node-js-real-time-collaboration-tools.svg" />
+    <Content Include="images\technology\node\node-js-social-networking-applications.svg" />
+    <Content Include="images\technology\node\node-maintenance-and-support.svg" />
+    <Content Include="images\technology\node\node.js-web-development.svg" />
+    <Content Include="images\technology\node\nodejs-framework.png" />
+    <Content Include="images\technology\node\OBJECTS.svg" />
+    <Content Include="images\technology\node\services-image.png" />
+    <Content Include="images\technology\php\custom-php-development.svg" />
+    <Content Include="images\technology\php\medicaldeviceevents-thumb.png" />
+    <Content Include="images\technology\php\php- web-development.svg" />
+    <Content Include="images\technology\php\php-back-end-data-management.svg" />
+    <Content Include="images\technology\php\php-framework.png" />
+    <Content Include="images\technology\php\php-framwork.png" />
+    <Content Include="images\technology\php\php-maintenance-and-support.svg" />
+    <Content Include="images\technology\php\php-real-time-collaboration-tools.svg" />
+    <Content Include="images\technology\php\php-social-networking-applications.svg" />
+    <Content Include="images\technology\php\smileprogram-thumb.png" />
+    <Content Include="images\technology\php\thedentalviews-thumb.png" />
+    <Content Include="images\technology\React-native\custom-react-native-app-development.svg" />
+    <Content Include="images\technology\React-native\mvp-react-native-app-development.svg" />
+    <Content Include="images\technology\React-native\onesaid.png" />
+    <Content Include="images\technology\React-native\rap-calculator.png" />
+    <Content Include="images\technology\React-native\react-native-ui-ux-design.svg" />
+    <Content Include="images\technology\React-native\react-native.png" />
+    <Content Include="images\technology\React-native\server-side-apis-integration.svg" />
+    <Content Include="images\technology\React-native\startup-business-enterprise-react-native-apps.svg" />
+    <Content Include="images\technology\React-native\support-maintain-upgrade-react-native-apps.svg" />
+    <Content Include="images\technology\React-native\wallpapers-for-me.png" />
+    <Content Include="images\technology\React-native\what-use-image.png" />
+    <Content Include="images\technology\React-native\what-we-do-image.png" />
+    <Content Include="images\technology\React.js\dev-talento-thumb.png" />
+    <Content Include="images\technology\React.js\honeyexport-thumb.png" />
+    <Content Include="images\technology\React.js\onesaid.png" />
+    <Content Include="images\technology\React.js\ReactJs.png" />
+    <Content Include="images\technology\Shopify\busybeauty-thumb.png" />
+    <Content Include="images\technology\Shopify\dedicated-developers.svg" />
+    <Content Include="images\technology\Shopify\delivered-time.svg" />
+    <Content Include="images\technology\Shopify\enzymespharma-thumb.png" />
+    <Content Include="images\technology\Shopify\front-end.svg" />
+    <Content Include="images\technology\Shopify\shopify-ecommerce-development-services.png" />
+    <Content Include="images\technology\Shopify\software-expertise.svg" />
+    <Content Include="images\technology\Shopify\web-solutions.svg" />
+    <Content Include="images\technology\Shopify\worldofecologista-thumb.png" />
+    <Content Include="images\technology\TypeScript\dev-talento-thumb.png" />
+    <Content Include="images\technology\TypeScript\honeyexport-thumb.png" />
+    <Content Include="images\technology\TypeScript\onesaid.png" />
+    <Content Include="images\technology\TypeScript\typescript.png" />
+    <Content Include="images\technology\Woo-commerce\busybeauty.com.png" />
+    <Content Include="images\technology\Woo-commerce\Ecommerce Website Development.png" />
+    <Content Include="images\technology\Woo-commerce\enzymespharma.com.png" />
+    <Content Include="images\technology\Woo-commerce\worldofecologista.com.png" />
+    <Content Include="images\technology\wordpress\1.svg" />
+    <Content Include="images\technology\wordpress\2.svg" />
+    <Content Include="images\technology\wordpress\3.svg" />
+    <Content Include="images\technology\wordpress\4.svg" />
+    <Content Include="images\technology\wordpress\5.svg" />
+    <Content Include="images\technology\wordpress\6.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-1.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-2.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-3.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-4.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-5.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-6.svg" />
+    <Content Include="images\technology\wordpress\dark\dark-objects.svg" />
+    <Content Include="images\technology\wordpress\medicaldeviceevents-thumb.png" />
+    <Content Include="images\technology\wordpress\object.svg" />
+    <Content Include="images\technology\wordpress\objects2.svg" />
+    <Content Include="images\technology\wordpress\smileprogram-thumb.png" />
+    <Content Include="images\technology\wordpress\thedentalviews-thumb.png" />
+    <Content Include="images\technology\xamarin\aarya-gst.png" />
+    <Content Include="images\technology\xamarin\ai-ml--capabilities-in-xamarin.svg" />
+    <Content Include="images\technology\xamarin\app-upgrade-maintenance.svg" />
+    <Content Include="images\technology\xamarin\bizdesk-diamond-broker.png" />
+    <Content Include="images\technology\xamarin\cloud-development-integration.svg" />
+    <Content Include="images\technology\xamarin\gdp-impex.png" />
+    <Content Include="images\technology\xamarin\prototyping-wireframes.svg" />
+    <Content Include="images\technology\xamarin\quality-coding-debugging.svg" />
+    <Content Include="images\technology\xamarin\third-party-api-integration.svg" />
+    <Content Include="images\technology\xamarin\what-use-image.png" />
+    <Content Include="images\technology\xamarin\what-we-do-image.png" />
+    <Content Include="images\technology\xamarin\xamarin.png" />
+    <Content Include="images\Varnilabgrown\about-project.png" />
+    <Content Include="images\Varnilabgrown\Features.png" />
+    <Content Include="images\Varnilabgrown\header-image.png" />
+    <Content Include="images\Varnilabgrown\image1.png" />
+    <Content Include="images\Varnilabgrown\image2.png" />
+    <Content Include="images\Varnilabgrown\logo.png" />
+    <Content Include="images\webdevelop\angular.svg" />
+    <Content Include="images\webdevelop\cms-img.svg" />
+    <Content Include="images\webdevelop\CMS.jpg" />
+    <Content Include="images\webdevelop\cms.png" />
+    <Content Include="images\webdevelop\CMS1.jpg" />
+    <Content Include="images\webdevelop\cms2.jpg" />
+    <Content Include="images\webdevelop\cms3.jpg" />
+    <Content Include="images\webdevelop\cms4.png" />
+    <Content Include="images\webdevelop\cms5.png" />
+    <Content Include="images\webdevelop\cms6.png" />
+    <Content Include="images\webdevelop\CMSheader.jpg" />
+    <Content Include="images\webdevelop\codeIgniter.svg" />
+    <Content Include="images\webdevelop\Enterprise.png" />
+    <Content Include="images\webdevelop\Icon\android.svg" />
+    <Content Include="images\webdevelop\Icon\aws.svg" />
+    <Content Include="images\webdevelop\Icon\azure.svg" />
+    <Content Include="images\webdevelop\Icon\firebase.svg" />
+    <Content Include="images\webdevelop\Icon\google-cloud.svg" />
+    <Content Include="images\webdevelop\Icon\html-5.svg" />
+    <Content Include="images\webdevelop\Icon\Ios.svg" />
+    <Content Include="images\webdevelop\Icon\magento.svg" />
+    <Content Include="images\webdevelop\Icon\mongoDB-1.svg" />
+    <Content Include="images\webdevelop\Icon\mssql.svg" />
+    <Content Include="images\webdevelop\Icon\mysql.svg" />
+    <Content Include="images\webdevelop\Icon\react-native.svg" />
+    <Content Include="images\webdevelop\Icon\reactjs.svg" />
+    <Content Include="images\webdevelop\Icon\shopify.svg" />
+    <Content Include="images\webdevelop\Icon\typescript.svg" />
+    <Content Include="images\webdevelop\Icon\wordpress.svg" />
+    <Content Include="images\webdevelop\Icon\xamarin.svg" />
+    <Content Include="images\webdevelop\laravel.svg" />
+    <Content Include="images\webdevelop\leaf.svg" />
+    <Content Include="images\webdevelop\mobile-api.png" />
+    <Content Include="images\webdevelop\net.svg" />
+    <Content Include="images\webdevelop\new\ecommerce-development-image.png" />
+    <Content Include="images\webdevelop\new\ecommerce-one.png" />
+    <Content Include="images\webdevelop\new\ecommerce-website.png" />
+    <Content Include="images\webdevelop\node.svg" />
+    <Content Include="images\webdevelop\php.svg" />
+    <Content Include="images\webdevelop\web-icon-1.png" />
+    <Content Include="images\webdevelop\web-process.png" />
+    <Content Include="images\webdevelop\webdevelop.png" />
+    <Content Include="images\webdevelop\webdevelop.svg" />
+    <Content Include="js\pages\apply-job3b74.js" />
+    <Content Include="js\pages\contact-us9ef6.js" />
+    <Content Include="js\pages\hire-us2555.js" />
+    <Content Include="js\pages\portfolio0653.js" />
+    <Content Include="js\pre-load.min.js" />
+    <Content Include="js\sitee7a5.js" />
+    <Content Include="lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="lib\css\owl.carousel.css" />
+    <Content Include="lib\css\owl.theme.default.css" />
+    <Content Include="lib\css\owl.video.play.html" />
+    <Content Include="lib\css\responsive.min.css" />
+    <Content Include="lib\jquery-validation\dist\jquery.validate.min0fc6.js" />
+    <Content Include="lib\jquery\dist\jquery.min.js" />
+    <Content Include="lib\js\Magnific.js" />
+    <Content Include="lib\js\owl.carousel.min.js" />
+    <Content Include="lib\js\wow.js" />
+    <Content Include="Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\Muli-Black.ttf" />
+    <Content Include="fonts\Muli-Bold.ttf" />
+    <Content Include="fonts\Muli-ExtraBold.ttf" />
+    <Content Include="fonts\Muli-Light.ttf" />
+    <Content Include="fonts\Muli-Medium.ttf" />
+    <Content Include="fonts\Muli-Regular.ttf" />
+    <Content Include="fonts\Muli-SemiBold.ttf" />
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\Career.js" />
+    <Content Include="Scripts\Hireus.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Portfolio.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\aboutus.cshtml" />
+    <Content Include="Views\services\mobileappsdevelopment.cshtml" />
+    <Content Include="Views\services\softwaredevelopment.cshtml" />
+    <Content Include="Views\services\webapplicationdevelopment.cshtml" />
+    <Content Include="Views\services\uiuxdesign.cshtml" />
+    <Content Include="Views\career\Index.cshtml" />
+    <Content Include="Views\portfolio\Index.cshtml" />
+    <Content Include="Views\hireus\Index.cshtml" />
+    <Content Include="Views\hireus\contactus.cshtml" />
+    <Content Include="Views\Technologies\Android.cshtml" />
+    <Content Include="Views\Technologies\Angular.cshtml" />
+    <Content Include="Views\Technologies\Dotnet.cshtml" />
+    <Content Include="Views\Technologies\Html.cshtml" />
+    <Content Include="Views\Technologies\Ios.cshtml" />
+    <Content Include="Views\Technologies\Laravel.cshtml" />
+    <Content Include="Views\Technologies\Nodejs.cshtml" />
+    <Content Include="Views\Technologies\Php.cshtml" />
+    <Content Include="Views\Technologies\Reactjs.cshtml" />
+    <Content Include="Views\Technologies\Reactnative.cshtml" />
+    <Content Include="Views\Technologies\Shopify.cshtml" />
+    <Content Include="Views\Technologies\Typescript.cshtml" />
+    <Content Include="Views\Technologies\Woocommerce.cshtml" />
+    <Content Include="Views\Technologies\Wordpress.cshtml" />
+    <Content Include="Views\Technologies\Xamarin.cshtml" />
+    <Content Include="Views\Home\Privacypolicy.cshtml" />
+    <Content Include="Views\Home\Sitemap.cshtml" />
+    <Content Include="Views\Technology\Mobile.cshtml" />
+    <Content Include="Views\portfolio\Gdpimpex.cshtml" />
+    <Content Include="Views\portfolio\Honeyexport.cshtml" />
+    <Content Include="Views\portfolio\Medicaldevice.cshtml" />
+    <Content Include="Views\portfolio\Millonhands.cshtml" />
+    <Content Include="Views\portfolio\Narmada.cshtml" />
+    <Content Include="Views\portfolio\Onesaid.cshtml" />
+    <Content Include="Views\portfolio\Sddiam.cshtml" />
+    <Content Include="Views\portfolio\Smileprogram.cshtml" />
+    <Content Include="Views\portfolio\Varnilabgrown.cshtml" />
+    <Content Include="Views\career\Businessanalyst.cshtml" />
+    <Content Include="Views\career\Businessdevelopmentexecutive.cshtml" />
+    <Content Include="Views\career\Businessdevelopmentmanager.cshtml" />
+    <Content Include="Views\career\Uiuxdesigner.cshtml" />
+    <Content Include="Views\career\Projectmanager.cshtml" />
+    <Content Include="Views\career\Teamleader.cshtml" />
+    <Content Include="Views\career\Reactnativedeveloper.cshtml" />
+    <Content Include="Views\career\Androiddeveloper.cshtml" />
+    <Content Include="Views\career\Flutterdeveloper.cshtml" />
+    <Content Include="Views\career\Iosdeveloper.cshtml" />
+    <Content Include="Views\career\Sraspnetdeveloper.cshtml" />
+    <Content Include="Views\career\Angulardeveloper.cshtml" />
+    <Content Include="Views\career\Jraspnetmvcdeveloper.cshtml" />
+    <Content Include="Views\career\Meanstackdeveloper.cshtml" />
+    <Content Include="Views\career\Nodejsdeveloper.cshtml" />
+    <Content Include="Views\career\Phpcilaraveldeveloper.cshtml" />
+    <Content Include="Views\career\Reactjsdeveloper.cshtml" />
+    <Content Include="Views\career\Srwordpressdeveloper.cshtml" />
+    <Content Include="Views\career\Seoexecutive.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64164</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44380/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

@@ -1,0 +1,247 @@
+﻿
+@{
+    ViewBag.Title = "Sitemap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main role="main" class="pb-3">
+
+
+    <section class="hero-process sitemap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 newgrid wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="contact-title">
+                        <h2>Sitemap</h2>
+                        <p>Your search assistant to make navigation easier throughout the website.</p>
+                        <img class="img-fluid main-ad main-ad1" src="images/about/Repeat-Grid.svg">
+                    </div>
+                    <img src="~/images/home/core.svg" class="img-fluid core-img" alt="Codesdot">
+                </div>
+            </div>
+            <div class="row section-1">
+                <div class="col-12 title-sitemap">
+                    <h2>Services</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Software Development</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a onclick="goToByScroll('cust-dev',200)" href="@Url.Action("softwaredevelopment", "services")#cust-dev">Custom Development</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('desk-dev',150)" href="@Url.Action("softwaredevelopment", "services")#desk-dev">Desktop Based Development</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('ent-dev',150)" href="@Url.Action("softwaredevelopment", "services")#ent-dev">Enterprise Software Development</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('eco-dev',150)" href="@Url.Action("softwaredevelopment", "services")#eco-dev">Ecommerce Software Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Website Development</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a onclick="goToByScroll('Enterprise',200)" href="@Url.Action("webapplicationdevelopment", "services")#Enterprise">Enterprise Development</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Ecommerce',150)" href="@Url.Action("webapplicationdevelopment", "services")#Ecommerce">E-commerce Development</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Content',150)" href="@Url.Action("webapplicationdevelopment", "services")#Content">Content Management System (CMS)</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Mobile',150)" href="@Url.Action("webapplicationdevelopment", "services")#Mobile">Mobile API/Backend</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Mobile App Development</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a onclick="goToByScroll('ios',200)" href="@Url.Action("mobileappsdevelopment", "services")#ios">IOS Apps</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Android',150)" href="@Url.Action("mobileappsdevelopment", "services")#Android">Android Apps</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Platform',150)" href="@Url.Action("mobileappsdevelopment", "services")#Platform">Cross-Platform Apps</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Design</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a onclick="goToByScroll('Research',200)" href="@Url.Action("uiuxdesign", "services")#Research">Research</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Application',150)" href="@Url.Action("uiuxdesign", "services")#Application">Application Design</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Game',150)" href="@Url.Action("uiuxdesign", "services")#Game">Game Design</a>
+                            </li>
+                            <li>
+                                <a onclick="goToByScroll('Layout',150)" href="@Url.Action("uiuxdesign", "services") #Layout">Web Layout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-1">
+                <div class="col-12 title-sitemap">
+                    <h2>Expertise</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Mobile</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Ios", "Technologies")">ISO</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Android", "Technologies")">Android</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Reactnative", "Technologies")">React Native</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Xamarin", "Technologies")">Xamarin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Backend</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Nodejs", "Technologies")">Node</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Dotnet", "Technologies")">.Net</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Laravel", "Technologies")">Laravel</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Php", "Technologies")">PHP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>Front End</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Angular", "Technologies")">Angular</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Reactjs", "Technologies")">React Js</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Typescript", "Technologies")">TypeScript</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Html", "Technologies")">HTML5</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="title">
+                        <h2>CMS</h2>
+                    </div>
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Shopify", "Technologies")">Shopify</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Wordpress", "Technologies")">WordPress</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Woocommerce", "Technologies")">WooCommerce</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-1">
+                <div class="col-12 title-sitemap">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Onesaid", "portfolio")">Onesaid</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Medicaldevice", "portfolio")">10x Medical Device</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Honeyexport", "portfolio")">Honey Export</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Gdpimpex", "portfolio")">GDP Impex</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Millonhands", "portfolio")">Millonhands</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Narmada", "portfolio")">Narmada</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 sitemap-item">
+                    <div class="data-content">
+                        <ul>
+                            <li>
+                                <a href="@Url.Action("Sddiam", "portfolio")">SD Diam</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Smileprogram", "portfolio")">Smile Program</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Varnilabgrown", "portfolio")">Varni</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+

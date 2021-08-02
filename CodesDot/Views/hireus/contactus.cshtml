@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewBag.Title = "contactus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main role="main" class="pb-3">
+
+    <section class="hero-process hero-navigate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12 newgrid wow fadeInUp">
+                    <div class="contact-title">
+                        <h3>Say hello to us!</h3>
+                        <h2>Contact Us</h2>
+                        <p>Let's talk business or just have a coffee. We would love to hear from you !</p>
+                        <img class="img-fluid main-ad main-ad1" src="~/images/about/Repeat-Grid.svg">
+                    </div>
+                    <img src="~/images/home/core.svg" class="img-fluid core-img" alt="Codesdot">
+                </div>
+            </div>
+
+            <div class="row contactspace">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-xs-12 wow fadeInLeft">
+                    <div class="contact-img">
+                        <img src="~/images/contactus/hero-contact.svg" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-xs-12 wow fadeInRight">
+                    <div class="contact-form default-form">
+                        <form name="contact-form" method="post">
+                            <div class="mb-4 contact_name">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name" autocomplete="off">
+                            </div>
+                            <div class="form-row mb-4">
+                                <div class="col">
+                                    <input type="email" name="emailid" id="emailid" class="form-control" placeholder="Email Address" autocomplete="off">
+                                </div>
+                                <div class="col">
+                                    <input type="text" id="contactnumber" name="contactnumber" class="form-control" placeholder="Contact Number" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="description contact_name">
+                                <textarea placeholder="Description" name="description" class="form-control nat-required f1" id="description"></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="button" class="header-btn apply-button" id="btn-submit">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                        <span id="span-submit">Submit</span>
+                                        <div id="btn-loader" style="display:none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 style=" margin-left: 10px; background: rgba(241, 242, 243, 0); display: block;" width="19px" height="19px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                                                <circle cx="50" cy="50" r="37" stroke="rgba(70, 223, 240, 0)" stroke-width="0" fill="none"></circle>
+                                                <circle cx="50" cy="50" r="37" stroke="#babdd8" stroke-width="8" stroke-linecap="round" fill="none">
+                                                    <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;180 50 50;720 50 50" keyTimes="0;0.5;1"></animateTransform>
+                                                    <animate attributeName="stroke-dasharray" repeatCount="indefinite" dur="1s" values="65.09379978238051 167.38405658326417;232.4778563656447 0;65.09379978238051 167.38405658326417" keyTimes="0;0.5;1"></animate>
+                                                </circle>
+                                            </svg>
+
+                                        </div>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn-submit").click(function () {
+            $("#btn-loader").show();
+
+            var fd = new FormData();
+
+            var name = $("#name").val();
+            var emailid = $("#emailid").val();
+            var contactnumber = $("#contactnumber").val();
+            var description = $("#description").val();
+
+            console.log(name, emailid, contactnumber, description);
+
+            //fd.append("firstname", firstname);
+            //fd.append("lastname", lastname);
+            //fd.append("emailid", emailid);
+            //fd.append("phonenumber", phonenumber);
+            //fd.append("location", location);
+            //fd.append("linkedinprofile", linkedinprofile);
+            //fd.append("aboutyourself", aboutyourself);
+            //fd.append("file", fileattachment);
+            //fd.append("filename", fileattachment.name);
+            //fd.append("filetype", fileattachment.type);
+
+            var req = {
+                name: name,
+                email: emailid,
+                phonenno: contactnumber,
+                description: description
+            };
+
+
+            $.ajax({
+                type: "POST",
+                url: "/hireus/ContactDataSave",
+                data: JSON.stringify(req),
+                dataType: "json",
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    console.log(data);
+                    $("#btn-loader").hide();
+                    alert(data);
+                },
+                error: function () {
+                    alert("Error occured!!")
+                }
+            });
+
+        });
+    });
+
+</script>
+

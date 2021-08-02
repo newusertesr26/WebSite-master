@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81.388" height="74.194" viewBox="0 0 81.388 74.194">
+  <g id="objective" transform="translate(9 0.001)">
+    <g id="Group_9550" data-name="Group 9550" transform="translate(51.181 1.413)">
+      <path id="Path_13882" data-name="Path 13882" d="M362,29.794h8.483l11.311-11.311h-8.483V10L362,21.311Z" transform="translate(-362 -10)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_197" data-name="Ellipse 197" cx="25" cy="25" r="25" transform="translate(5.193 17.193)" fill="#fff" opacity="0.17"/>
+    <circle id="Ellipse_198" data-name="Ellipse 198" cx="17.5" cy="17.5" r="17.5" transform="translate(12.194 25.193)" fill="#fff" opacity="0.475"/>
+    <circle id="Ellipse_199" data-name="Ellipse 199" cx="10.5" cy="10.5" r="10.5" transform="translate(19.193 32.193)" fill="#fcb3b3"/>
+    <circle id="Ellipse_200" data-name="Ellipse 200" cx="4.5" cy="4.5" r="4.5" transform="translate(25.194 38.194)" fill="#fff"/>
+    <path id="Path_13883" data-name="Path 13883" d="M72.281,9.355a1.414,1.414,0,0,0-1.306-.873H65.9l1.828-1.828a1.414,1.414,0,0,0-2-2L63.905,6.483V1.413a1.414,1.414,0,0,0-2.414-1L50.181,11.724a1.415,1.415,0,0,0-.414,1v7.9l-2.618,2.618A26.053,26.053,0,0,0,31.1,16.58V14.421a1.414,1.414,0,0,0-2.828,0V16.58a26.192,26.192,0,0,0-24.7,24.7H1.414a1.414,1.414,0,0,0,0,2.828H3.573a26.193,26.193,0,0,0,24.7,24.7v2.159a1.414,1.414,0,0,0,2.828,0V68.814a26.192,26.192,0,0,0,24.7-24.7h2.159a1.414,1.414,0,1,0,0-2.828H55.808a26.052,26.052,0,0,0-6.659-16.045l2.618-2.618h7.9a1.414,1.414,0,0,0,1-.414L71.974,10.9a1.414,1.414,0,0,0,.307-1.541ZM53.019,42.7a23.358,23.358,0,1,1-7.871-17.456l-3,3a19.108,19.108,0,1,0,2,2l3-3A23.232,23.232,0,0,1,53.019,42.7Zm-24.328-1a1.414,1.414,0,1,0,2,2L42.138,32.25a16.276,16.276,0,1,1-2-2ZM58.25,7.654l2.828-2.828V9.311L58.25,12.138ZM52.594,13.31l2.828-2.828v4.484l-2.828,2.828Zm6.484,6.484H54.594l2.828-2.828h4.484Zm5.655-5.655H60.249l2.828-2.828h4.484Z" transform="translate(0 0)" fill="#b26868"/>
+    <g id="icon_pettarn" transform="translate(-1365 -5108.807)">
+      <path id="Polygon_13" data-name="Polygon 13" d="M2.5,0,5,4H0Z" transform="translate(1356 5147)" fill="#fff"/>
+      <path id="Polygon_16" data-name="Polygon 16" d="M2.5,0,5,4H0Z" transform="translate(1421 5166)" fill="#fff"/>
+      <path id="Polygon_14" data-name="Polygon 14" d="M2.5,0,5,4H0Z" transform="translate(1396 5112)" fill="#fff"/>
+      <path id="Polygon_15" data-name="Polygon 15" d="M1.5,0,3,2H0Z" transform="translate(1429 5146)" fill="#fff"/>
+      <path id="Polygon_19" data-name="Polygon 19" d="M1.5,0,3,2H0Z" transform="translate(1372 5122)" fill="#fff"/>
+      <path id="Polygon_17" data-name="Polygon 17" d="M1.5,0,3,2H0Z" transform="translate(1371 5176)" fill="#fff"/>
+      <path id="Polygon_18" data-name="Polygon 18" d="M1.5,0,3,2H0Z" transform="translate(1407 5181)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
